@@ -1,0 +1,56 @@
+/* Write your CSS here */
+.img {
+  height: 100px;
+}
+.fruits-counter-bg {
+  background-color: #ffd569;
+  min-height: 100vh;
+  font-family: 'roboto';
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+}
+
+.fruits-counter-card {
+  background-color: #fff;
+  border-radius: 10px;
+  text-align: center;
+  padding: 20px;
+}
+.fruits-counter-heading {
+  font-size: 24px;
+}
+
+.fruits-count {
+  color: #ffd569;
+}
+.fruits-item-con {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+}
+.img {
+  height: 300px;
+  width: 300px;
+}
+button {
+  height: 28px;
+  width: 90px;
+  color: #fff;
+  background-color: #007bff;
+  border: 0px;
+  border-radius: 5px;
+  margin-top: 20px;
+}
+@media (min-width: 768px) {
+  .fruits-counter-card {
+    width: 90%;
+    padding: 30 0;
+  }
+  .fruits-counter-heading {
+    font-size: 40px;
+    margin: 40px 0;
+  }
+}
